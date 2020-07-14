@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'PLStringExtension_Example' do
+  pod 'PLStringExtension', :path => '../'
+
+  target 'PLStringExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+  pod "PLOptionalExtension"
+  pod "CryptoSwift"
+end

@@ -1,0 +1,6 @@
+framework module PLOptionalExtension {
+  umbrella header "PLOptionalExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

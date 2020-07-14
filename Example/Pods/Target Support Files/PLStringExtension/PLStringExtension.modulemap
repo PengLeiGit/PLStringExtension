@@ -1,0 +1,6 @@
+framework module PLStringExtension {
+  umbrella header "PLStringExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
